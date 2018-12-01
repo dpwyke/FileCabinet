@@ -59,15 +59,18 @@
 		width: 100%;
 		padding: 1.5rem 2.5%;
 		float: left;
-		h2 {
-			@include bold_font;
-			color: white;
-			margin-bottom: 0;
-		}
-		p {
-			color: rgba(255, 255, 255, 0.9);
-		}
 	}
+	h2 {
+		@include bold_font;
+		color: white;
+		text-align: center;
+		margin-bottom: 0;	
+	}
+	p {
+		color: rgba(255, 255, 255, 0.9);
+		
+	}
+	
 }
 
 #bottom_cta {
@@ -75,7 +78,7 @@
 	padding: 7.5rem 0;
 	h2 {
 		@include bold_font;
-		color: $dark_gray;
+		color: dark_gray;
 		font-size: 3rem;
 		margin: 0;
 	}
